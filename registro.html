@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="es">
+  <meta charset="UTF-8">
+<head>
+  <title>Registro de Usuario</title>
+  <link rel="stylesheet" type="text/css" href="registro.css">
+</head>
+<body>
+  <h1>Registro de Usuario</h1>
+  <form action="formulario.php" method="post">
+    <label for="nombre">Nombre:</label>
+    <input type="text" id="nombre" name="nombre" required><br>
+    
+    <label for="ApellidoP">Apellido Paterno:</label>
+    <input type="text" id="ApellidoP" name="ApellidoP" required><br>
+
+    <label for="ApellidoM">Apellido Materno:</label>
+    <input type="text" id="ApellidoM" name="ApellidoM" required><br>
+
+    <label for="Departamento">Departamento:</label>
+    <input type="text" id="Departamento" name="Departamento" required><br>
+   
+    <label for="TipoUsuario">Tipo de usuario:</label>
+    <input type="radio" id="TipoUsuario" name="TipoUsuario" value="CO" required>
+    <label for="TipoUsuario">CO</label><br>
+
+
+    <label for="Contraseña">Password:</label>
+    <input type="password" id="Contraseña" name="Contraseña" required><br>
+
+    <label for="ConfiContraseña">Confirmación de Password:</label>
+    <input type="password" id="ConfiContraseña" name="ConfiContraseña" required><br>
+    
+    
+    <input type="reset" value="Restablecer formulario">
+    <input type="submit" value="Enviar">
+
+  </form>
+</body>
+</html>
